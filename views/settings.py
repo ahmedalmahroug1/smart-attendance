@@ -12,7 +12,7 @@ import streamlit as st
 import pandas as pd
 from datetime import date, time
 from database import db_add_exam, db_get_all_exams
-from pages._helpers import page_header
+from views._helpers import page_header
 
 
 def render_settings():

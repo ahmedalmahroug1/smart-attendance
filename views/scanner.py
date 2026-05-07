@@ -10,7 +10,7 @@ import numpy as np
 from PIL import Image
 from datetime import datetime, date, time, timedelta
 from database import db_student_exists, db_get_exams_today, db_log_attendance
-from pages._helpers import page_header
+from views._helpers import page_header
 
 
 def render_qr_scanner():

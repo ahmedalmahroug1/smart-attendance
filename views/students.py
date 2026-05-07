@@ -11,7 +11,7 @@ import base64
 import uuid as uuid_mod
 from database import db_add_student, db_get_all_students
 from qr_utils import generate_qr_image, qr_card_html, qr_to_b64
-from pages._helpers import page_header
+from views._helpers import page_header
 
 
 def render_add_students():

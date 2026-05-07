@@ -17,12 +17,12 @@ import streamlit as st
 from styles import inject_global_styles, inject_dashboard_styles
 
 # ── استيراد صفحات التطبيق ────────────────────────────────────────────────────
-from pages.login import render_login_page          # صفحة تسجيل الدخول
-from pages.scanner import render_qr_scanner        # صفحة مسح رموز QR
-from pages.students import render_add_students     # صفحة إضافة الطلبة
-from pages.history import render_attendance_history # صفحة سجل الحضور
-from pages.manual_edit import render_manual_edit   # صفحة التعديل اليدوي
-from pages.settings import render_settings         # صفحة الإعدادات
+from views.login import render_login_page          # صفحة تسجيل الدخول
+from views.scanner import render_qr_scanner        # صفحة مسح رموز QR
+from views.students import render_add_students     # صفحة إضافة الطلبة
+from views.history import render_attendance_history # صفحة سجل الحضور
+from views.manual_edit import render_manual_edit   # صفحة التعديل اليدوي
+from views.settings import render_settings         # صفحة الإعدادات
 
 def main():
     """الدالة الرئيسية — يتم استدعاؤها عند تشغيل التطبيق."""

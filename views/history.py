@@ -12,7 +12,7 @@ import streamlit as st
 import pandas as pd
 from datetime import date
 from database import db_get_all_students, db_get_attendance_history, db_count_today_present
-from pages._helpers import page_header
+from views._helpers import page_header
 
 
 def render_attendance_history():

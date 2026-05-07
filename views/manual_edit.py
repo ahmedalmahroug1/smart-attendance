@@ -8,7 +8,7 @@ manual_edit.py — صفحة التعديل اليدوي للحضور
 import streamlit as st
 from datetime import date
 from database import db_get_all_students, db_upsert_attendance
-from pages._helpers import page_header
+from views._helpers import page_header
 
 
 def render_manual_edit():
