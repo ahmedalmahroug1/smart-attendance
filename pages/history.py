@@ -89,7 +89,7 @@ def render_attendance_history():
             return "background-color: #4a3a10; color: #fbbf24;"   # أصفر
         return "color: #94a3b8;"                                   # رمادي (—)
 
-    styled = pivot.style.applymap(_color_cell)
+    styled = pivot.style.map(_color_cell)
 
     # عرض الجدول المحوري الملوّن
     st.dataframe(styled, use_container_width=True, height=450)
